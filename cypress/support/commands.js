@@ -10,9 +10,19 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
+import   {selector} from "../support/locators";
+Cypress.Commands.add('login', (username, password) => {
+     // cy.get()
+     // cy.xpath(selector.sign_in).click();
+     cy.xpath(selector.username).type(username);
+     cy.xpath(selector.password).clear().type(password);
+     cy.get(selector.login_button).click(); 
+
+
+
+     });
+
+
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //

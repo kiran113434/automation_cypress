@@ -1,13 +1,18 @@
  describe("Register The User ID",()=>{
    const username=`amad${Date.now()}`;
    const email=`amad${Date.now()}`+"@gmail.com";
-    beforeEach(()=>{
+    beforeEach(()=>{                                //hook
 
          cy.visit("https://petstore.octoperf.com/actions/Account.action?signonForm=");
 
 
-    })
+    });
 
+    afterEach(()=>{
+      cy.log("clean up the data") //hook
+
+
+    });
      
      
      it('Register User Id',()=> {
