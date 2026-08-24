@@ -26,3 +26,21 @@ export const data={
 
 
 }
+export const username_data={
+    username:"amad16",
+    password:"amad1616"
+}
+export const fish_data={
+    card_type:"MasterCard",
+    card_number:"999 9999 9999 9999",
+    expiry_date:"2081/06/05",
+    first_name:"djjkd",
+    last_name:"dsd",
+    address_1:"ddggdf",
+    address_2:"ewdds",
+    city:"dgfdf",
+    state:"3333",
+    zip:"43554",
+    country:"aafnei sansar"
+ 
+}

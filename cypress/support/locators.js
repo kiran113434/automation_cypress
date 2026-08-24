@@ -41,6 +41,20 @@ export const add_to_cart_fish={
    gold_fish:"//a[normalize-space()='FI-FW-02']",
   est_1_add_to_cart:"/html[1]/body[1]/div[2]/div[2]/table[1]/tbody[1]/tr[7]/td[1]/a[1]",
     proceed_to_checkout:"//a[normalize-space()='Proceed to Checkout']",
+    card_type:"select[name='order.cardType']",
+    card_number:"order.creditCard",
+    expiry_date:"order.expiryDate",
+    first_name:"order.billToFirstName",
+    last_name:"order.billToLastName",
+    address_1:"order.billAddress1",
+    address_2:"order.billAddress2",
+    city:"order.billCity",
+    state:"order.billCity",
+    zip:"order.billZip",
+    country:"order.billCountry",
+    ship_to_different_address:"shippingAddressRequired",
+    continue:"newOrder",
+    confirm:"//a[normalize-space()='Confirm']"
 
 
 
