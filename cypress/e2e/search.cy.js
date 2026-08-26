@@ -22,8 +22,8 @@ describe("",()=>{
         click();
 
         
-cy.log(search_selectors.return_to_menu);
-console.log(search_selectors.return_to_menu);
+// cy.log(search_selectors.return_to_menu);
+// console.log(search_selectors.return_to_menu);
         cy.xpath(search_selectors.return_to_menu).
         click();
         
